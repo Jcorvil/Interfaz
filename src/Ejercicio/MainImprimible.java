@@ -7,5 +7,8 @@ public class MainImprimible {
 
         Consola segundo = new Consola();
         segundo.color();
+
+        Borrable tercero = new Impresora();
+        tercero.borrar();
     }
 }
