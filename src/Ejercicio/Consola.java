@@ -1,8 +1,7 @@
 package Ejercicio;
 
 public class Consola implements Imprimible, Borrable{
-    static String pagina = "Hola";
-    static String color = " verde";
+    static String contenido = "contenido";
 
     public void pantalla(){
         System.out.printf("$");
@@ -14,16 +13,12 @@ public class Consola implements Imprimible, Borrable{
     }
 
     @Override
-    public void imprime(){
-        System.out.println(pagina);
+    public void establecerContenido() {
+        System.out.println("$" + contenido);
     }
 
     @Override
-    public void establecerContenido() {
-
+    public void imprime() {
     }
 
-    public void color(){
-        System.out.println(pagina + color);
-    }
 }

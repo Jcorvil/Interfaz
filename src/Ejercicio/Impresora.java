@@ -3,9 +3,10 @@ package Ejercicio;
 public class Impresora implements Imprimible, Borrable{
     static String pagina = "Hola";
     static String TEXTO_POR_DEFECTO = "Página de prueba";
+    static String contenido = "contenido";
 
     public void establecerContenido(){
-        System.out.println();
+        System.out.println(contenido);
     }
 
     @Override
