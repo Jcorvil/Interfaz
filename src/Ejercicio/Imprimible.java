@@ -1,6 +1,7 @@
 package Ejercicio;
 
 public interface Imprimible {
-    void TEXTO_POR_DEFECTO();
+    final String TEXTO_POR_DEFECTO = "Página de Prueba";
     void imprime();
+    void establecerContenido();
 }
