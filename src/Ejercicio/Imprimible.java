@@ -1,7 +1,12 @@
 package Ejercicio;
 
-public interface Imprimible extends Borrable{
-    final String TEXTO_POR_DEFECTO = "Página de Prueba";
+public interface Imprimible extends Borrable, Editable {
+
+    //Ejercicio 2
+    String TEXTO_POR_DEFECTO = "Página de Prueba";
+
+    //Ejercicio 1
     void imprime();
-    void establecerContenido();
+
+    void establecerContenido(String contenido);
 }
